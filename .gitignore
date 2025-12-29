@@ -1,8 +1,10 @@
 # 原始数据集
-data/
+data/*
+# 保留示例文件
+!data/data.csv
 
 # 输出文件
-output
+output/
 
 # PYthon缓存文件
 __pycache__/
@@ -15,6 +17,3 @@ venv/
 # 自用 Markdown 文件
 update.md
 resume.md
-
-# 保留示例文件
-!data/data.csv
