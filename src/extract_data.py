@@ -8,7 +8,8 @@ import pandas as pd
 def extract_data(input_path=None, output_path=None):
     base_data = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data'))
     if input_path is None:
-        input_path = os.path.join(base_data, 'NGSIM-US101-dataset', '0750-0805.txt')
+        # input_path = os.path.join(base_data, 'NGSIM-US101-dataset', '0750-0805.txt')
+        input_path = os.path.join(base_data, 'NGSIM-US101-dataset', '0820-0835.txt')
     if output_path is None:
         output_path = os.path.join(base_data, 'data.csv')
 

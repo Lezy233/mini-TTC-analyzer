@@ -1,3 +1,20 @@
-data/NGSIM-US101-dataset/
+# 原始数据集
+data/
 
+# 输出文件
+output
+
+# PYthon缓存文件
+__pycache__/
+*.pyc
+
+# 虚拟环境
+venv/
+.env
+
+# 自用 Markdown 文件
 update.md
+resume.md
+
+# 保留示例文件
+!data/data.csv
