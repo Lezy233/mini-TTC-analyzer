@@ -1,8 +1,13 @@
 Analysis Summary
 ================
 Total Frames: 378
-Minimum Distance: 964.24 m
-Minimum TTC: 29.70 s
-Abnormal Frames: 0
-Safety Alerts (TTC < 1.5s): 0
-Processing Time: 0.0118 s
+Processing Time: 0.1919 s
+
+Trajectory Similarity Summary
+-----------------------------
+Resampled Points: 300
+Mean Pointwise Distance: 1141.9033 m
+DTW (normalized): 1141.9033
+Correlation X: 0.5481
+Correlation Y: 0.8534
+Similarity Score (0-1): 0.4208

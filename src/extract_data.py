@@ -1,3 +1,7 @@
+"""
+一个小脚本，用于从NGSIM数据集中提取两辆车的轨迹数据，并保存为CSV文件。
+"""
+
 import os
 import pandas as pd
 
